@@ -20,3 +20,6 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: latest
+        env:
+            DOCKER_USERNAME: ${{ dumitrualex252000 }}
+            DOCKER_PASSWORD: ${{ dckr_pat_trxdJgXvPb_LyPefdX9lX9yU6Ak }}
